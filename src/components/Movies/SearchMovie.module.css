@@ -1,0 +1,14 @@
+.pagenation {
+  background-color: var(--main-color);
+  color:#fff;
+  transition: .3s ease-in;
+  cursor: pointer ;
+}
+
+.pagenation:hover {
+  background-color: #515151;
+  color: #fff;
+}
+.nofound {
+  font-size: 40px;
+}

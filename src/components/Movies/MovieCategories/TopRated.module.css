@@ -1,0 +1,23 @@
+.title {
+  width: fit-content;
+  padding-bottom: 15px;
+
+}
+
+.title::before,.title::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 4px;
+}
+
+.title::before {
+  bottom: 0px;
+  width: 25%;
+}
+
+.title::after {
+  bottom: -10px;
+  width: 50%;
+  left: 0;
+}

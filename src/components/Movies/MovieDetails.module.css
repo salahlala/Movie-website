@@ -1,0 +1,84 @@
+.main-detail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  min-height: 500px;
+  filter: blur(10px);
+  position: absolute;
+  width: 98%;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .main-detail {
+    min-height: 550px;
+  }
+}
+.poster{
+  width: 200px;
+
+}
+.poster img {
+  width: 100%;
+}
+.star {
+  fill: #e8860e;
+}
+
+.details .title {
+  color: #fff;
+}
+.details span{
+  display: block;
+  color: #fff;
+}
+
+.catg span {
+  font-size: 12px;
+}
+
+.team {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.team h2 {
+  color: #fff;
+}
+.team-img {
+  width: 150px;
+}
+.name {
+  color: #fff;
+}
+.character {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+.cast-slide {
+  user-select: none;
+}
+
+.similar-title {
+  color: #fff;
+  width: fit-content;
+
+}
+
+.similar-title::before,.similar-title::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 4px;
+}
+
+.similar-title::before {
+  bottom: 0px;
+  width: 25%;
+}
+
+.similar-title::after {
+  bottom: -10px;
+  width: 50%;
+  left: 0;
+}

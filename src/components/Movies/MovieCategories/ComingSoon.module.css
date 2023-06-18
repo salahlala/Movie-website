@@ -1,0 +1,56 @@
+.title {
+  color: #fff;
+  width: fit-content;
+
+}
+
+.title::before,.title::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 4px;
+}
+
+.title::before {
+  bottom: 0px;
+  width: 25%;
+}
+
+.title::after {
+  bottom: -10px;
+  width: 50%;
+  left: 0;
+}
+
+.disable {
+  pointer-events: none;
+  background-color: #c8c8c8 !important;
+  border-color: #c8c8c8 !important;
+}
+
+.pagenation {
+  background-color: var(--main-color);
+  color:#fff;
+  transition: .3s ease-in;
+  cursor: pointer ;
+}
+
+.pagenation:hover {
+  background-color: #515151;
+  color: #fff;
+}
+
+
+
+.error-msg {
+  color:#6c2525;
+  font-size: 30px;
+  
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer ;
+  /* width: fit-content; */
+}

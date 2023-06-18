@@ -1,0 +1,135 @@
+.main-nav {
+  /* background-color: #000002; */
+  /* height: calc(100vh - 70px); */
+  height: 100vh;
+  border: none;
+  border-right: 3px solid var(--main-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+@media (max-width: 991px) {
+  .main-nav {
+    position: fixed;
+    height: 100vh;
+    /* z-index: 9; */
+    background-color: #000000c9;
+    display: none;
+    justify-content: center;
+    animation: show-nav .5s ease;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-nav.active {
+    display: flex;
+   
+  }
+}
+
+@keyframes show-nav {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);
+  }
+}
+.title {
+  color: #fff;
+}
+.list {
+  color: #fff;
+}
+
+.list li {
+  /* background-color: red; */
+  transition: .4s ease-in;
+  cursor: pointer;
+}
+.list a {
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .list li {
+    font-size: 26px;
+  }
+}
+.list li:hover {
+  background-color: #2b2b2b;
+}
+
+.activeLink {
+  background-color: #2b2b2b;
+
+}
+/* .list li::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%);
+  height: 100%;
+
+}
+.list li.active::before {
+  background-color: #ddd;
+
+} */
+
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  width: fit-content !important;
+  display: none;
+  fill: #fff;
+}
+.open,.close {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .close {
+    display: block;
+  }
+}
+.search-form {
+  display: none;
+}
+@media(max-width: 991px) {
+  .search-form {
+    display: block;
+  }
+}
+.search-form input{
+  background-color: transparent;
+  border-color: #2b2b2b !important;
+  color: #fff !important;
+}
+
+.search-form input:focus {
+
+  outline: none;
+}
+.search {
+  background-color: transparent;
+  right: 20px;
+  transform: translateY(-50%);
+  top : 50%;
+
+}
+.icon {
+  fill: #2b2b2b;
+  font-size: 20px;
+
+}

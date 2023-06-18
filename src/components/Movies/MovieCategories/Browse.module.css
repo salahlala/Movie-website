@@ -1,0 +1,35 @@
+.pagenation {
+  background-color: var(--main-color);
+  color:#fff;
+  transition: .3s ease-in;
+  cursor: pointer ;
+}
+
+.pagenation:hover {
+  background-color: #515151;
+  color: #fff;
+}
+
+.filter-nav{
+  background-color: var(--main-color);
+
+}
+.filter-nav select {
+  border: none;
+}
+.filter-nav select:focus{
+  outline: none;
+}
+
+.error-msg {
+  color:#6c2525;
+  font-size: 30px;
+  
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer ;
+  /* width: fit-content; */
+}
