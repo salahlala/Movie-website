@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Movie-website/static/css/main.91a56190.css",
+    "main.js": "/Movie-website/static/js/main.1dc76123.js",
+    "static/css/430.c15c10b9.chunk.css": "/Movie-website/static/css/430.c15c10b9.chunk.css",
+    "static/js/430.3f1da9d0.chunk.js": "/Movie-website/static/js/430.3f1da9d0.chunk.js",
+    "static/css/936.33704951.chunk.css": "/Movie-website/static/css/936.33704951.chunk.css",
+    "static/js/936.ee23df41.chunk.js": "/Movie-website/static/js/936.ee23df41.chunk.js",
+    "static/css/869.32b57356.chunk.css": "/Movie-website/static/css/869.32b57356.chunk.css",
+    "static/js/869.81ee16ba.chunk.js": "/Movie-website/static/js/869.81ee16ba.chunk.js",
+    "static/css/71.7c2021cb.chunk.css": "/Movie-website/static/css/71.7c2021cb.chunk.css",
+    "static/js/71.8a5734aa.chunk.js": "/Movie-website/static/js/71.8a5734aa.chunk.js",
+    "static/js/787.80ff975f.chunk.js": "/Movie-website/static/js/787.80ff975f.chunk.js",
+    "index.html": "/Movie-website/index.html",
+    "main.91a56190.css.map": "/Movie-website/static/css/main.91a56190.css.map",
+    "main.1dc76123.js.map": "/Movie-website/static/js/main.1dc76123.js.map",
+    "430.c15c10b9.chunk.css.map": "/Movie-website/static/css/430.c15c10b9.chunk.css.map",
+    "430.3f1da9d0.chunk.js.map": "/Movie-website/static/js/430.3f1da9d0.chunk.js.map",
+    "936.33704951.chunk.css.map": "/Movie-website/static/css/936.33704951.chunk.css.map",
+    "936.ee23df41.chunk.js.map": "/Movie-website/static/js/936.ee23df41.chunk.js.map",
+    "869.32b57356.chunk.css.map": "/Movie-website/static/css/869.32b57356.chunk.css.map",
+    "869.81ee16ba.chunk.js.map": "/Movie-website/static/js/869.81ee16ba.chunk.js.map",
+    "71.7c2021cb.chunk.css.map": "/Movie-website/static/css/71.7c2021cb.chunk.css.map",
+    "71.8a5734aa.chunk.js.map": "/Movie-website/static/js/71.8a5734aa.chunk.js.map",
+    "787.80ff975f.chunk.js.map": "/Movie-website/static/js/787.80ff975f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91a56190.css",
+    "static/js/main.1dc76123.js"
+  ]
+}
